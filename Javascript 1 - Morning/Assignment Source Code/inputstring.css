@@ -1,0 +1,34 @@
+.center {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: 150px;
+    width: 50%;
+    border: 3px solid lightseagreen;
+    padding-left: 300px;
+    padding-right: 50px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+  }
+#col {
+    padding: 10px 20px;
+    background-color: dodgerblue;
+    border: 1px solid #ddd;
+    color: white;
+  }
+
+  #inputTxt {
+    vertical-align: middle;
+    margin: 5px 10px 5px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+  }
+
+  h4{
+      color: rgb(226, 17, 17);
+  }
+  span{
+      color:black;
+  }
+
+ 
