@@ -1,0 +1,36 @@
+<!-- <p>list-employee works!</p> -->
+
+
+
+<div class="container" style="font-family: roboto">
+  <div  class="text-center "
+  style="font-size: 30px;  ;">
+     LIST OF EMPLOYEE
+  </div>
+  <div class="list-group text-uppercase">
+  <div class="list-group-item list-group-item-action font-size:30px text-success my-auto d-flex justify-content-between text-center">
+    <div class="col-md-2">First Name</div>
+    <div class="col-md-2">Last Name</div>
+    <div class="col-md-2">D.O.B</div>
+    <div class="col-md-2">Contact</div>
+    <div class="col-md-2"> City</div>
+    <div class="col-md-2">Pincode</div>
+  </div>
+  </div>
+  <div class="list-group text-uppercase">
+    <div class="list-group-item list-group-item-action small
+    font-weight-bold my-auto d-flex justify-content-between  text-center" *ngFor="let emp Of employees; let indexOfEmp=index">
+    
+      <div class="col-md-2 text-secondary"> &nbsp; {{emp.Firstname}}</div>
+      <div class="col-md-2"> &nbsp; {{emp.Lastname}}</div>
+      <div class="col-md-2"><i class="far fa-calendar-alt"></i> &nbsp;  {{emp.dob}}</div>
+      <div class="col-md-2"> &nbsp;  {{emp.contact}}</div>
+      <div class="col-md-2"> &nbsp;  {{emp.address}}</div>
+      <div class="col-md-2">  &nbsp;  {{emp.pincode}}</div>
+      <button class="btn btn-danger"  (click)="deleteEmployee(indexOfEmp)"><i class="far fa-trash-alt"></i></button>
+      <button class="btn btn-success" [routerLink]="['../employeeForm',indexOfEmp]"><i class="fas fa-user-edit"></i></button>
+      
+    </div>
+  </div>
+</div>
+
