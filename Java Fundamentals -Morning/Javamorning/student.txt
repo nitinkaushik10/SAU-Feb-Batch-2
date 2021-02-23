@@ -1,0 +1,1 @@
+RollNo Marks Subject12 85 Maths13 60 physics15 79 chemistry13 85 Maths15 60 physics12 79 chemistry13 85 chemistry15 60 maths12 79 physics
