@@ -1,0 +1,84 @@
+
+.cardview {
+  width:700px;
+  height:550px;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top:20px;
+  margin-left: 200px;
+  top : 35%;
+  
+}
+
+.cardview1{
+  width:700px;
+  height:300px;
+  box-shadow: 2px  2px 2px 2px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  
+  margin-top:100px;
+  margin-left: 200px;
+  top : 27%;
+  left : 35%;
+}
+
+
+.heading {
+    background-color:#76528bff;
+    color: white;
+    padding: 40px 10px;
+    font-size: 40px;
+}
+
+.text-box {
+    padding:10px;
+}
+  .tableview{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+.tableview thead tr {
+  background-color: #76528bff;
+  color: #ffffff;
+  text-align: left;
+  text-align: center;
+}
+
+.tableview th,
+.tableview td {
+    padding: 10px 120px;
+}
+
+.tableview tbody tr {
+  border-bottom: 1px solid #009879;
+}
+
+.tableview tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.tableview tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+.tableview tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+
+.trans {
+  background-color:rgba(0,0,0,0) !important;
+  border:8px solid;
+}
+
+.labelnam {
+  color:'olive';
+  font-weight:'bold'
+}
+
