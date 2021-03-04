@@ -1,0 +1,6 @@
+<mat-card style="box-shadow: black 0 0 10px;height: 50px;width: 200px;">
+    <mat-card-title>Name:{{user.name}} </mat-card-title>
+    <mat-card-subtitle>credit:{{user.credits}} </mat-card-subtitle>
+</mat-card><br>
+<input type="number" id="credit" [(ngModel)]="creditPayment" style="width: 220px;height: 20px; border-radius: 10px;" /><br><br>
+<button mat-raised-button color="accent" (click)="PayCredit()"> Pay Credit</button>
